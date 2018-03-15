@@ -87,6 +87,8 @@ def writeMWT(mwtDict,putNewline=False):
             if putNewline:
                 temp += "\n"
             temp += "|" + mwkey + "=" + mwtDict["data"][mwkey]
+        if putNewline and mwtDict["data"] != {}:
+            temp += "\n"
         temp += "}}"
         return temp
     except:
