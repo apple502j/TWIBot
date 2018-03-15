@@ -20,7 +20,7 @@ INTERWIKI=['de','ja','nl','hu','id','ru','fr'] # Do not include "get" and "set" 
 WIKI_GET="https://en.scratch-wiki.info/w/api.php" # Where the bot gets the info of interwiki
 WIKI_SET="https://test.scratch-wiki.info/w/api.php" # Where the bot puts the interwiki
 
-USERNAME="Apple502j" # Change it before using!
+USERNAME="Someone" # Change it before using!
 PASSWORD=getpass.getpass() # Always asks
 
 wGet=mwc.Wiki(WIKI_GET,"Apple_Bot (Only read!) v1.0 with python3/requests/mw-api-client")
